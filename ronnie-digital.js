@@ -1,3 +1,5 @@
+let allPokemon = [];
+
 class Pokemon{
     constructor(name,hp,attack,defense,abilities=[]){
         this.name = name
@@ -54,6 +56,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/gengar/")
         data.stats[4].base_stat,
         data.stats[3].base_stat,
     )
+    allPokemon.push(gengar);
 
     // data.abilities.forEach((item) => {
     //     gengar.addAbility(item.ability.name)
@@ -91,7 +94,8 @@ axios.get("https://pokeapi.co/api/v2/pokemon/hitmonlee/")
         data.stats[4].base_stat,
         data.stats[3].base_stat,
     )
-
+    
+allPokemon.push(hitmonlee);
     // data.abilities.forEach((item) => {
     //     hitmonlee.addAbility(item.ability.name)
         
@@ -131,6 +135,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/kabutops/")
         data.stats[3].base_stat,
     )
 
+    allPokemon.push(kabutops);
     // data.abilities.forEach((item) => {
     //     kabutops.addAbility(item.ability.name)
         
