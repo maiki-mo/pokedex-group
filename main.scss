@@ -1,0 +1,12 @@
+$background-color: black;
+$text-color: red;
+
+body, p, main {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $background-color;
+}
