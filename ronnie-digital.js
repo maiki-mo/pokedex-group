@@ -55,17 +55,17 @@ axios.get("https://pokeapi.co/api/v2/pokemon/gengar/")
         data.stats[3].base_stat,
     )
 
-    data.abilities.forEach((item) => {
-        gengar.addAbility(item.ability.name)
+    // data.abilities.forEach((item) => {
+    //     gengar.addAbility(item.ability.name)
         
-        abilities.innerHTML += item.ability.name + ""
-    })
+    //     abilities.innerHTML += item.ability.name + ""
+    // })
 
-    ronnie.add(gengar)
-    pokeName.innerHTML = gengar.name
-    hp.innerHTML = gengar.hp
-    attack.innerHTML = gengar.attack
-    defense.innerHTML = gengar.defense
+    // ronnie.add(gengar)
+    // pokeName.innerHTML = gengar.name
+    // hp.innerHTML = gengar.hp
+    // attack.innerHTML = gengar.attack
+    // defense.innerHTML = gengar.defense
 
 console.log(gengar);    
 }).catch((error) => {
@@ -92,17 +92,17 @@ axios.get("https://pokeapi.co/api/v2/pokemon/hitmonlee/")
         data.stats[3].base_stat,
     )
 
-    data.abilities.forEach((item) => {
-        hitmonlee.addAbility(item.ability.name)
+    // data.abilities.forEach((item) => {
+    //     hitmonlee.addAbility(item.ability.name)
         
-        abilities.innerHTML += item.ability.name + ", "
-    })
+    //     abilities.innerHTML += item.ability.name + ", "
+    // })
 
-    ronnie.add(hitmonlee)
-    pokeName.innerHTML = hitmonlee.name
-    hp.innerHTML = hitmonlee.hp
-    attack.innerHTML = hitmonlee.attack
-    defense.innerHTML = hitmonlee.defense
+    // ronnie.add(hitmonlee)
+    // pokeName.innerHTML = hitmonlee.name
+    // hp.innerHTML = hitmonlee.hp
+    // attack.innerHTML = hitmonlee.attack
+    // defense.innerHTML = hitmonlee.defense
 
 console.log(hitmonlee);    
 }).catch((error) => {
@@ -131,17 +131,17 @@ axios.get("https://pokeapi.co/api/v2/pokemon/kabutops/")
         data.stats[3].base_stat,
     )
 
-    data.abilities.forEach((item) => {
-        kabutops.addAbility(item.ability.name)
+    // data.abilities.forEach((item) => {
+    //     kabutops.addAbility(item.ability.name)
         
-        abilities.innerHTML += item.ability.name + ", "
-    })
+    //     abilities.innerHTML += item.ability.name + ", "
+    // })
 
-    ronnie.add(kabutops)
-    pokeName.innerHTML = kabutops.name
-    hp.innerHTML = kabutops.hp
-    attack.innerHTML = kabutops.attack
-    defense.innerHTML = kabutops.defense
+    // ronnie.add(kabutops)
+    // pokeName.innerHTML = kabutops.name
+    // hp.innerHTML = kabutops.hp
+    // attack.innerHTML = kabutops.attack
+    // defense.innerHTML = kabutops.defense
 
 console.log(kabutops);    
 }).catch((error) => {
