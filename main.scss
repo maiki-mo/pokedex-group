@@ -15,8 +15,12 @@ p, h1{
     font-family: $main-font;
 }
 
+p {
+    font-size: 12px;
+}
+
 body {
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: $dark-background;
 }
 
@@ -27,4 +31,9 @@ body {
 
 #header-text {
     font-size: 35px;
+}
+
+#first-letter {
+    color: red;
+    font-size: 45px;
 }
