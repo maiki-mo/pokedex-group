@@ -1,6 +1,8 @@
 $dark-background: black;
 $section-background: #0d0d0d;
-$text-color: red;
+$text-color: white;
+$main-font: 'Russo One', sans-serif;
+
 
 body, p, main {
     border: 0;
@@ -8,10 +10,30 @@ body, p, main {
     padding: 0;
 }
 
+p, h1{
+    color: $text-color;
+    font-family: $main-font;
+}
+
+p {
+    font-size: 12px;
+}
+
 body {
+    margin-top: 20px;
     background-color: $dark-background;
 }
 
-#logo {
-    width: 300px;
+.row {
+    background-color: $section-background;
+    border-radius: 30px;
+}
+
+#header-text {
+    font-size: 35px;
+}
+
+#first-letter {
+    color: red;
+    font-size: 45px;
 }

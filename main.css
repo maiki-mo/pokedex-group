@@ -3,10 +3,26 @@ body, p, main {
   margin: 0;
   padding: 0; }
 
+p, h1 {
+  color: white;
+  font-family: "Russo One", sans-serif; }
+
+p {
+  font-size: 12px; }
+
 body {
+  margin-top: 20px;
   background-color: black; }
 
-#logo {
-  width: 300px; }
+.row {
+  background-color: #0d0d0d;
+  border-radius: 30px; }
+
+#header-text {
+  font-size: 35px; }
+
+#first-letter {
+  color: red;
+  font-size: 45px; }
 
 /*# sourceMappingURL=main.css.map */
