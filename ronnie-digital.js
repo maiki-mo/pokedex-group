@@ -56,15 +56,16 @@ axios.get("https://pokeapi.co/api/v2/pokemon/gengar/")
         data.stats[4].base_stat,
         data.stats[3].base_stat,
     )
+    
 
      data.abilities.forEach((item) => {
          gengar.addAbility(item.ability.name)
         
-             allPokemon.push(gengar);
 
 
     //     abilities.innerHTML += item.ability.name + ""
      })
+         allPokemon.push(gengar);
 
     // ronnie.add(gengar)
     // pokeName.innerHTML = gengar.name
@@ -100,13 +101,13 @@ axios.get("https://pokeapi.co/api/v2/pokemon/hitmonlee/")
      data.abilities.forEach((item) => {
          hitmonlee.addAbility(item.ability.name)
          
-         allPokemon.push(hitmonlee);
 
         
   //       abilities.innerHTML += item.ability.name + ", "
      })
+         allPokemon.push(hitmonlee);
 
-    // ronnie.add(hitmonlee)
+   // ronnie.add(hitmonlee)
     // pokeName.innerHTML = hitmonlee.name
     // hp.innerHTML = hitmonlee.hp
     // attack.innerHTML = hitmonlee.attack
@@ -142,10 +143,10 @@ axios.get("https://pokeapi.co/api/v2/pokemon/kabutops/")
      data.abilities.forEach((item) => {
          kabutops.addAbility(item.ability.name)
          
-            allPokemon.push(kabutops);
 
      //    abilities.innerHTML += item.ability.name + ", "
      })
+            allPokemon.push(kabutops);
 
     // ronnie.add(kabutops)
     // pokeName.innerHTML = kabutops.name
