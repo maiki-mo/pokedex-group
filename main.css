@@ -8,7 +8,8 @@ p, h1 {
   font-family: "Russo One", sans-serif; }
 
 p {
-  font-size: 12px; }
+  font-size: 11px;
+  text-align: center; }
 
 body {
   margin-top: 20px;
@@ -16,7 +17,8 @@ body {
 
 .row {
   background-color: #0d0d0d;
-  border-radius: 30px; }
+  border-radius: 30px;
+  padding-right: 10px; }
 
 #header-text {
   font-size: 35px; }
@@ -24,5 +26,8 @@ body {
 #first-letter {
   color: red;
   font-size: 45px; }
+
+#motto {
+  margin: 30px 0 0 0; }
 
 /*# sourceMappingURL=main.css.map */
