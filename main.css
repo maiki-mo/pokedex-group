@@ -6,4 +6,7 @@ body, p, main {
 body {
   background-color: black; }
 
+#logo {
+  width: 300px; }
+
 /*# sourceMappingURL=main.css.map */

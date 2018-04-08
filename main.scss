@@ -1,4 +1,5 @@
-$background-color: black;
+$dark-background: black;
+$section-background: #0d0d0d;
 $text-color: red;
 
 body, p, main {
@@ -8,5 +9,9 @@ body, p, main {
 }
 
 body {
-    background-color: $background-color;
+    background-color: $dark-background;
+}
+
+#logo {
+    width: 300px;
 }
