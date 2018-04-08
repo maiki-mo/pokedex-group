@@ -3,10 +3,19 @@ body, p, main {
   margin: 0;
   padding: 0; }
 
+p, h1 {
+  color: white;
+  font-family: "Russo One", sans-serif; }
+
 body {
+  margin-top: 10px;
   background-color: black; }
 
-#logo {
-  width: 300px; }
+.row {
+  background-color: #0d0d0d;
+  border-radius: 30px; }
+
+#header-text {
+  font-size: 35px; }
 
 /*# sourceMappingURL=main.css.map */
