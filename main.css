@@ -28,7 +28,7 @@ body {
   color: red;
   font-size: 45px; }
 
-#pokeCards div {
+#poke-cards div {
   justify-content: space-around; }
 
 #motto {
