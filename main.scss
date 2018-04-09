@@ -16,7 +16,8 @@ p, h1{
 }
 
 p {
-    font-size: 12px;
+    font-size: 11px;
+    text-align: center;
 }
 
 body {
@@ -27,6 +28,7 @@ body {
 .row {
     background-color: $section-background;
     border-radius: 30px;
+    padding-right: 10px;
 }
 
 #header-text {
@@ -39,5 +41,9 @@ body {
 }
 
 #pokeCards div{
-    justify-content: space-around;
+  justify-content: space-around;
+}
+
+#motto {
+    margin: 30px 0 0 0;
 }
