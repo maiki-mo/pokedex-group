@@ -10,31 +10,38 @@
 <body>
     <header class="container">
         <section class="row">
-            <img class="col l4 m6 s12" id="logo" src="images/team-rocket.png">
-            <div class="col l4 m6 s12"></div>
-            <div class="col l4 m6 s12">
-                <section id="head-menu" class="row">
-                    <h1 id="header-text" class="col l12 m12 s12"><span id="first-letter">T</span>EAM <span id="first-letter">R</span>OCKET</h1>
-                    <a class="col s4 waves-effect waves-red btn-flat"><p>About Us</p></a>
-                    <a class="col s4 waves-effect waves-red btn-flat"><p style="color: red">Pokemon Roster</p>></a>
-                    <a class="col s4 waves-effect waves-red btn-flat"><p>Join Today</p>></a>
-                    <p id="motto" class="col l12 m12 s12">"To protect the world from devestation..."</p>
-                </section>
+              <img class="col l4 m6 s12" id="logo" src="images/team-rocket.png">
+              <div class="col l4 m6 s12"></div>
+              <div class="col l4 m6 s12">
+                  <section id="head-menu" class="row">
+                      <h1 id="header-text" class="col l12 m12 s12"><span id="first-letter">T</span>EAM <span id="first-letter">R</span>OCKET</h1>
+                      <a class="col s4 waves-effect waves-red btn-flat"><p>About Us</p></a>
+                      <a class="col s4 waves-effect waves-red btn-flat" href="#roster"><p style="color: red">Pokemon Roster</p>></a>
+                      <a class="col s4 waves-effect waves-red btn-flat"><p>Join Today</p>></a>
+                      <p id="motto" class="col l12 m12 s12">"To protect the world from devestation..."</p>
+                  </section>
             </div>
         </section>
+        <hr>
+        <br />
     </header>
-    
     <main>
-
-<section class="container center-align">
+<section id="propaganda" class="container center-align">
   <figure>
-      <video src="videos/team-rocket-videoclip.mp4" controls autoplay></video>
+      <video src="videos/team-rocket-videoclip.mp4" autoplay></video>
   </figure>
     <figcaption></figcaption>
 </section>
-    </main>
-    <footer>   
-<section>
+<section class="about-me row">
+    <article class="col s8">
+  
+    </article>
+    <article class="col s4">
+      <img src="images/team-rocket-pose.png">
+    </article>
+  
+  </section> 
+<section id="roster">
 <h2>2018 Winning Roster</h2>
      <div class="card small">
     <div class="card-image waves-effect waves-block waves-light">
@@ -78,6 +85,8 @@
     </div>
   </div>
 </section>
+</main>
+    <footer>
     </footer>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="l33t.js"></script>
