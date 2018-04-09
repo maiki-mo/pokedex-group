@@ -10,9 +10,10 @@ body, p, main {
     padding: 0;
 }
 
-p, h1{
+p, h1, h2{
     color: $text-color;
     font-family: $main-font;
+    text-align: center;
 }
 
 p {
@@ -41,9 +42,17 @@ body {
 }
 
 #pokeCards div{
-  justify-content: space-around;
+    justify-content: space-around;
 }
 
 #motto {
     margin: 30px 0 0 0;
+}
+
+.about-us {
+    width: 70%;
+}
+
+#about-stuff {
+    text-align: justify;
 }

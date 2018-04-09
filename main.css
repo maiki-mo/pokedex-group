@@ -3,9 +3,10 @@ body, p, main {
   margin: 0;
   padding: 0; }
 
-p, h1 {
+p, h1, h2 {
   color: white;
-  font-family: "Russo One", sans-serif; }
+  font-family: "Russo One", sans-serif;
+  text-align: center; }
 
 p {
   font-size: 11px;
@@ -27,7 +28,16 @@ body {
   color: red;
   font-size: 45px; }
 
+#pokeCards div {
+  justify-content: space-around; }
+
 #motto {
   margin: 30px 0 0 0; }
+
+.about-us {
+  width: 70%; }
+
+#about-stuff {
+  text-align: justify; }
 
 /*# sourceMappingURL=main.css.map */
