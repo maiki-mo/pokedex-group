@@ -9,7 +9,7 @@ p, h1, h2 {
   text-align: center; }
 
 p {
-  font-size: 11px;
+  font-size: 12px;
   text-align: center; }
 
 body {
@@ -22,7 +22,7 @@ body {
   padding-right: 10px; }
 
 #header-text {
-  font-size: 35px; }
+  font-size: 30px; }
 
 #first-letter {
   color: red;
@@ -31,16 +31,20 @@ body {
 #poke-cards div {
   justify-content: space-around; }
 
+#container {
+  margin: 20px 100px 0 100px; }
+
 #motto {
   margin: 30px 0 0 0; }
 
-.about-us {
-  width: 70%; }
-
 #about-stuff {
-  text-align: justify; }
+  text-align: justify;
+  margin: 20px; }
 
 #sil {
   width: 100%; }
+
+#text-color {
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */

@@ -15,13 +15,13 @@
         <section class="row">
             
               <img class="col l4 m6 s12" id="logo" src="images/team-rocket.png">
-              <div class="col l4 m6 s12"></div>
-              <div class="col l4 m6 s12">
+              <div class="col l3 m6 s12"></div>
+              <div class="col l5 m6 s12">
                   <section id="head-menu" class="row">
                       <h1 id="header-text" class="col l12 m12 s12"><span id="first-letter">T</span>EAM <span id="first-letter">R</span>OCKET</h1>
                       <a class="col s4 waves-effect waves-red btn-flat" href="#about-us"><p>About Us</p></a>
                       <a class="col s4 waves-effect waves-red btn-flat" href="#poke-cards"><p style="color: red">Pokemon Roster</p>></a>
-                      <a class="col s4 waves-effect waves-red btn-flat"><p>Join Today</p>></a>
+                      <a class="col s4 waves-effect waves-red btn-flat" href="#join-up"><p>Join Today</p>></a>
                       <p id="motto" class="col l12 m12 s12">"To protect the world from devestation..."</p>
                   </section>
             </div>
@@ -37,7 +37,7 @@
     <figcaption></figcaption>
 </section>
 
-<section class="about-us row">
+<section id="about-us" class="about-us row">
     <article class="col s7">
       <h2>About the Team:</h2>
       <p id="about-stuff">After the obliteration of Pallet Town at the hands of the nefarious Pokemon trainer only known as "Moz the Destroyer," the once peaceful world of Pokemon was left reeling from the ruthlessness, insatiability, and sheer pervertedness of Moz's tyranny.  Having failed to stop Moz's assault on Pallet Town, the illustrious trainers Ronnie Digital and l33t soon began to question the world around them and the true nature Pokemon.  With the betrayal of their closest ally, Lady Cataclysm, to Moz still burning in their hearts, the once celebrated heroes fled into reclusivity. <br /><br />
@@ -51,13 +51,14 @@
   
   </section> 
   <div></div>
-    
-<section id="pokeCards" class ="row">
+
+<section id="container">
+<section id="poke-cards" class ="row">
     <h2>2018 Winning Roster</h2>
 
-     <div class="card medium red lighten-1 col 1 offset-s1">
+     <div class="card medium red lighten-1 col s4">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/vaporeon2.png" style="width:250px;height:250px">
+      <img class="activator" src="images/vaporeon2.png">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Vaporeon<i class="material-icons right">open</i></span>
@@ -68,9 +69,9 @@
     </div>
   </div>
     
-      <div class="card medium red lighten-1 col 1 offset-s1">
+      <div class="card medium red lighten-1 col s4">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/jolteon.png" style="width:250px;height:250px">
+      <img class="activator" src="images/jolteon.png">
         </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Jolteon<i class="material-icons right">open</i></span>
@@ -81,9 +82,9 @@
     </div>
   </div>
     
-      <div class="card medium red lighten-1 col 1 offset-s1">
+      <div class="card medium red lighten-1 col s4">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/flareon.png" style="width:250px;height:250px">
+      <img class="activator" src="images/flareon.png">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Flareon<i class="material-icons right">open</i></span>
@@ -95,9 +96,9 @@
   </div>
 
 <section id="poke-cards" class ="row">    
-     <div class="card medium red lighten-1 col 1 offset-s1">
+     <div class="card medium red lighten-1 col s4">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/gengar.png" style="width:250px;height:250px">
+      <img class="activator" src="images/gengar.png">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Gengar<i class="material-icons right">open</i></span>
@@ -108,9 +109,9 @@
     </div>
   </div>
     
-      <div class="card medium red lighten-1 col 1 offset-s1">
+      <div class="card medium red lighten-1 col s4">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/hitmonlee.png" style="width:250px;height:250px">
+      <img class="activator" src="images/hitmonlee.png">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Hitmonlee<i class="material-icons right">open</i></span>
@@ -121,9 +122,9 @@
     </div>
   </div>
     
-      <div class="card medium red lighten-1 col 1 offset-s1">
+      <div class="card medium red lighten-1 col s4">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/kabutops.png" style="width:250px;height:250px">
+      <img class="activator" src="images/kabutops.png">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Kabutops<i class="material-icons right">open</i></span>
@@ -136,6 +137,40 @@
   </div>
 </section>
         </section>
+</section>
+<div class="container">
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div id="join-up" class="input-field col s6">
+        <input id="first_name" type="text" class="validate">
+        <label id="form-text-color" for="first_name">First Name</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="last_name" type="text" class="validate">
+        <label id="form-text-color" for="last_name">Last Name</label>
+      </div>
+      <div class="input-field col s4">
+        <input id="poke_1" type="text" class="validate">
+        <label id="form-text-color" for="poke_1 white">Pokemon 1</label>
+      </div>
+      <div class="input-field col s4">
+        <input id="poke_2" type="text" class="validate">
+        <label id="form-text-color" for="poke_2">Pokemon 2</label>
+      </div>
+      <div class="input-field col s4">
+        <input id="poke_3" type="text" class="validate">
+        <label id="form-text-color" for="poke_3">Pokemon 3</label>
+      </div>
+      <div class="input-field col s12">
+        <input id="email" type="email" class="validate">
+        <label id="form-text-color" for="email">Email</label>
+      </div>
+    </div>
+    </div>
+  </form>
+</div>
+</div>
     </main>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="l33t.js"></script>
