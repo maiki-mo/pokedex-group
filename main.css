@@ -42,9 +42,15 @@ body {
   margin: 20px; }
 
 #sil {
-  width: 100%; }
+  width: 80%; }
 
 #text-color {
   color: white; }
+
+.card {
+  margin: 10px; }
+
+#poke-cards {
+  padding: 20px; }
 
 /*# sourceMappingURL=main.css.map */
