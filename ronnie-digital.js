@@ -1,4 +1,6 @@
-let allPokemon = [];
+let geng = [];
+let hit = [];
+let kabu = [];
 
 class Pokemon{
     constructor(name,hp,attack,defense,abilities=[]){
@@ -65,7 +67,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/gengar/")
 
     //     abilities.innerHTML += item.ability.name + ""
      })
-         allPokemon.push(gengar);
+         geng.push(gengar);
 
     // ronnie.add(gengar)
     // pokeName.innerHTML = gengar.name
@@ -105,7 +107,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/hitmonlee/")
         
   //       abilities.innerHTML += item.ability.name + ", "
      })
-         allPokemon.push(hitmonlee);
+         hit.push(hitmonlee);
 
    // ronnie.add(hitmonlee)
     // pokeName.innerHTML = hitmonlee.name
@@ -146,7 +148,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/kabutops/")
 
      //    abilities.innerHTML += item.ability.name + ", "
      })
-            allPokemon.push(kabutops);
+            kabu.push(kabutops);
 
     // ronnie.add(kabutops)
     // pokeName.innerHTML = kabutops.name
