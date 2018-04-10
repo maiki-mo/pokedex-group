@@ -80,6 +80,7 @@ function hitmonlee() {
     hitmonleeAttack.innerHTML = hit[0].attack
     hitmonleeDefense.innerHTML = hit[0].defense
     hitmonleeAbilities.innerHTML = hit[0].abilities;
+
 }
 
 setTimeout(hitmonlee, 6000);
