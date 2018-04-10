@@ -8,9 +8,6 @@ p, h1, h2 {
   font-family: "Russo One", sans-serif;
   text-align: center; }
 
-h2 {
-  padding-top: 20px; }
-
 p {
   font-size: 12px;
   text-align: center; }
@@ -63,5 +60,11 @@ body {
 
 .card-reveal-p {
   color: grey; }
+
+#poke-cards {
+  padding-top: 20px; }
+
+#poke-cards > p {
+  font-size: 40px; }
 
 /*# sourceMappingURL=main.css.map */

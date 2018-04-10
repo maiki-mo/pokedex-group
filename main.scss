@@ -16,10 +16,6 @@ p, h1, h2{
     text-align: center;
 }
 
-h2 {
-    padding-top: 20px;
-}
-
 p {
     font-size: 12px;
     text-align: center;
@@ -31,8 +27,8 @@ body {
 }
 
 .row {
-   background-color: $section-background;
-  border-radius: 30px;
+    background-color: $section-background;
+    border-radius: 30px;
     padding-right: 10px;
 }
 
@@ -88,4 +84,12 @@ body {
 
 .card-reveal-p{
     color: grey;
+}
+
+#poke-cards {
+    padding-top: 20px;
+}
+
+#poke-cards>p {
+    font-size: 40px;
 }
