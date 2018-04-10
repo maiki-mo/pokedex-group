@@ -39,9 +39,11 @@
 <section id="about-us" class="about-us row">
     <article class="col s7">
       <h2>About the Team:</h2>
-      <p id="about-stuff">After the obliteration of Pallet Town at the hands of the nefarious Pokemon trainer only known as "Moz the Destroyer," the once peaceful world of Pokemon was left reeling from the ruthlessness, insatiability, and sheer pervertedness of Moz's tyranny.  Having failed to stop Moz's assault on Pallet Town, the illustrious trainers Ronnie Digital and l33t soon began to question the world around them and the true nature Pokemon.  With the betrayal of their closest ally, Lady Cataclysm, to Moz still burning in their hearts, the once celebrated heroes fled into reclusivity. <br /><br />
-        Despondent and nihilistic, the two wandered the Johto desert for 2 years observing the inherent savagery of Pokemon in the wild.  It was during this time that the two came to the belief that Pokemon were nothing if not the embodiment of an uncaring God, a Darwinian testament to the capriciousness and deterministic nature of the PokeUniverse and all those who inhabit it. <br /><br />
-        With their newfound philosophy, l33t and Ronnie are currently traveling the world in search of the strongest and rarest Pokemon through any means necessary.  Under the new banner of Team Rocket, l33t and Ronnie are assembling an army of only the most talented Pokemon trainers in hopes of not only dethroaning the diabolical Moz, but bringing forth a new era of PokeKind.
+      <p id="about-stuff">After the obliteration of Pallet Town at the hands of the nefarious Pokémon trainer known as "Moz the Destroyer," the once peaceful Pokémon World was left reeling. The fall of SEI5's last defenses against Moz at Pallet Town ushered in a new era of ruthless instability and sadistic perversion under Moz's tyrannical rule. Narrowly escaping Moz's final attack, the elite trainers Ronnie Digital and l33t retreated to the Johto desert. With the betrayal of their closest ally, Lady Cataclysm, to Moz's forces still stinging in their hearts, the once celebrated heroes fled into obscurity, ultimately questioning the true nature of the world around them and the mysterious beings known as Pokémon. <br /><br />
+
+          Despondent and nihilistic, the two wandered the Johto desert for 2 years surviving on slain Fearows and Sandshrews. The harsh and unforgiving environment and inherent savagery of Pokémon in the wild taught them much: this world had no rule. Pokémon themselves were nothing if not the embodiment of an uncaring God, a Darwinian testament to the capricious, deterministic nature of the PokéVerse and the little creatures that inhabit it.<br /><br />
+          
+          With their newfound philosophy, l33t and Ronnie have begun their travel around the world in search of the strongest and rarest Pokémon--attaining them through any means necessary. Forced into disguise due to the ubiquity of Moz's agents of evil, they've reassembled themselves under the new banner of Team Rocket. The war will be long and arduous. l33t and Ronnie are currently looking for recruits in only the most talented Pokemon trainers with hopes of not only dethroning the diabolical Moz, but bringing forth a new era of PokéKind based upon their newfound philosophy.
       </p>
     </article>
     <article class="col s5">
@@ -63,14 +65,13 @@
         <div class="card-reveal">
           <span class="card-title grey-text text-darken-4">stats<i class="material-icons right">close</i></span>
           <p class="black-text">Stats</p>
-            <ul class="black-text">
-                <li>Name: <span></span></li>
-                <li>HP: <span></span></li>
-                <li>Attack: <span></span></li>
-                <li>Defense: <span></span></li>
-                <li>Abilities: <span></span></li>
-            </ul>
-            <img src="https://i.pinimg.com/originals/6e/15/8b/6e158b0de583890d7eca925eb1784fbb.gif" style="width:200px;height:150px">
+          <ul class="black-text">
+              <li>Name: <span id="var-name"></span></li>
+              <li>HP: <span id="var-hp"></span></li>
+              <li>Attack: <span id="var-attack"></span></li>
+              <li>Defense: <span id="var-defense"></span></li>
+              <li>Abilities: <span id="var-abilities"></span></li>
+          </ul>
         </div>
   </div>
     
@@ -83,14 +84,13 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">stats<i class="material-icons right">close</i></span>
-       <ul class="black-text">
-                <li>Name: <span></span></li>
-                <li>HP: <span></span></li>
-                <li>Attack: <span></span></li>
-                <li>Defense: <span></span></li>
-                <li>Abilities: <span></span></li>
-            </ul>
-<img src="https://media1.tenor.com/images/7e5983eeffccd1a5e98635edd854f267/tenor.gif?itemid=5992117" style="width:200px;height:150px">    
+      <ul class="black-text">
+          <li>Name: <span id="jolt-name"></span></li>
+          <li>HP: <span id="jolt-hp"></span></li>
+          <li>Attack: <span id="jolt-attack"></span></li>
+          <li>Defense: <span id="jolt-defense"></span></li>
+          <li>Abilities: <span id="jolt-abilities"></span></li>
+      </ul>
     </div>
   </div>
     
@@ -103,14 +103,13 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">stats<i class="material-icons right">close</i></span>
-        <ul class="black-text">
-                <li>Name: <span></span></li>
-                <li>HP: <span></span></li>
-                <li>Attack: <span></span></li>
-                <li>Defense: <span></span></li>
-                <li>Abilities: <span></span></li>
-            </ul>
-        <img src="https://media3.giphy.com/media/XMQDIsq4dmN0s/source.gif" style="height:150px;width:200px">
+      <ul class="black-text">
+          <li>Name: <span id="flar-name"></span></li>
+          <li>HP: <span id="flar-hp"></span></li>
+          <li>Attack: <span id="flar-attack"></span></li>
+          <li>Defense: <span id="flar-defense"></span></li>
+          <li>Abilities: <span id="flar-abilities"></span></li>
+      </ul>
     </div>
         
   </div>
@@ -188,7 +187,7 @@
   <form class="col s12">
     <div id="form-row" class="row">
       <div class="col s12">
-        <p id="header-text"><span class="first-letter">J</span>OIN <span class="first-letter">T</span>EAM <span class="first-letter">R</span>OCKET <span class="first-letter">I</span>N <span class="first-letter">D</span>EFEATING <span class="first-letter">MOZ</span></p>
+        <p id="header-text"><span class="first-letter">JOIN</span> TEAM ROCKET IN DEFEATING <span class="first-letter">MOZ</span></p>
       </div>
       <div id="join-up" class="input-field col s6">
         <input id="first_name" type="text" class="validate">
