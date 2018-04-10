@@ -2,4 +2,8 @@ let pokeAll = []
 pokeAll.push(pokeDex);
 pokeAll.push(allPokemon);
 
-console.log(pokeAll[0]);
+let subButton = document.querySelector("#submit-p");
+subButton.addEventListener("click", alerter);
+function alerter() {
+    alert("This feature is not yet active");
+}
