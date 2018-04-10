@@ -24,7 +24,7 @@ body {
 #header-text {
   font-size: 30px; }
 
-#first-letter {
+.first-letter {
   color: red;
   font-size: 45px; }
 
@@ -39,12 +39,29 @@ body {
 
 #about-stuff {
   text-align: justify;
-  margin: 20px; }
-
-#sil {
-  width: 100%; }
+  font-size: 16px; }
 
 #text-color {
   color: white; }
+
+.card {
+  margin: 10px; }
+
+#sil {
+  margin-top: 40px;
+  width: 105%; }
+
+#poke-cards {
+  padding: 20px; }
+
+#form-row {
+  padding: 20px; }
+
+#about-us {
+  margin: 90px;
+  padding: 10px; }
+
+#submit-p {
+  font-size: 20px; }
 
 /*# sourceMappingURL=main.css.map */

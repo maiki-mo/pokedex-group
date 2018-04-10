@@ -11,14 +11,13 @@
     <title>TEAM ROCKET POK&eacute;DEX</title>
 </head>
 <body>
-    <header class="container">
-        <section class="row">
-            
+    <header id="about-contain" class="container">
+        <section id="about-row" class="row">
               <img class="col l4 m6 s12" id="logo" src="images/team-rocket.png">
               <div class="col l3 m6 s12"></div>
               <div class="col l5 m6 s12">
                   <section id="head-menu" class="row">
-                      <h1 id="header-text" class="col l12 m12 s12"><span id="first-letter">T</span>EAM <span id="first-letter">R</span>OCKET</h1>
+                      <h1 id="header-text" class="col l12 m12 s12"><span class="first-letter">T</span>EAM <span class="first-letter">R</span>OCKET</h1>
                       <a class="col s4 waves-effect waves-red btn-flat" href="#about-us"><p>About Us</p></a>
                       <a class="col s4 waves-effect waves-red btn-flat" href="#poke-cards"><p style="color: red">Pokemon Roster</p>></a>
                       <a class="col s4 waves-effect waves-red btn-flat" href="#join-up"><p>Join Today</p>></a>
@@ -56,17 +55,17 @@
 <section id="poke-cards" class ="row">
     <h2>2018 Winning Roster</h2>
 
-     <div class="card medium red lighten-1 col s4">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/vaporeon2.png">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Vaporeon<i class="material-icons right">open</i></span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">stats<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-    </div>
+    <div class="card medium red lighten-1 col s4">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="images/vaporeon2.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Vaporeon<i class="material-icons right">open</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">stats<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
   </div>
     
       <div class="card medium red lighten-1 col s4">
@@ -145,7 +144,10 @@
 <div class="container">
 <div class="row">
   <form class="col s12">
-    <div class="row">
+    <div id="form-row" class="row">
+      <div class="col s12">
+        <p id="header-text"><span class="first-letter">J</span>OIN <span class="first-letter">T</span>EAM <span class="first-letter">R</span>OCKET <span class="first-letter">I</span>N <span class="first-letter">D</span>EFEATING <span class="first-letter">MOZ</span></p>
+      </div>
       <div id="join-up" class="input-field col s6">
         <input id="first_name" type="text" class="validate">
         <label id="form-text-color" for="first_name">First Name</label>
@@ -169,6 +171,9 @@
       <div class="input-field col s12">
         <input id="email" type="email" class="validate">
         <label id="form-text-color" for="email">Email</label>
+      </div>
+      <div class="col s12">
+          <a class="col s4 offset-s4 waves-effect waves-red btn-flat"><p id="submit-p">Submit Application</p>></a>
       </div>
     </div>
     </div>
