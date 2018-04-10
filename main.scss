@@ -27,8 +27,8 @@ body {
 }
 
 .row {
-    background-color: $section-background;
-    border-radius: 30px;
+   background-color: $section-background;
+  border-radius: 30px;
     padding-right: 10px;
 }
 
@@ -41,12 +41,8 @@ body {
     font-size: 45px;
 }
 
-#poke-cards div{
-    justify-content: space-around;
-}
-
 #container {
-    margin: 20px 100px 0 100px;
+  margin: 20px 100px 0 100px;
 }
 
 #motto {
@@ -62,9 +58,6 @@ body {
     color: white;
 }
 
-.card {
-    margin: 10px;
-}
 
 #sil {
     margin-top: 40px;
@@ -75,9 +68,6 @@ body {
     color: white;
 }
 
-#poke-cards {
-    padding: 20px;
-}
 
 #form-row {
     padding: 20px;
