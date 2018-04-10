@@ -39,10 +39,7 @@ body {
 
 #about-stuff {
   text-align: justify;
-  margin: 20px; }
-
-#sil {
-  width: 80%; }
+  font-size: 16px; }
 
 #text-color {
   color: white; }
@@ -52,5 +49,11 @@ body {
 
 #poke-cards {
   padding: 20px; }
+
+#form-row {
+  padding: 20px; }
+
+#about-us {
+  margin: 90px; }
 
 /*# sourceMappingURL=main.css.map */
