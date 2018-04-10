@@ -166,7 +166,7 @@ let l33t = new PokeTrainer(pokeDex);
 // POKEMON INFO
 // base hp: response.data.stats[5].base_stat
 // base atk: response.data.stats[4].base_stat
-// base df: response.data.stats[3].base_stat;
+// base df: response.data.stats[3].base_stat
 // abilities: response.data.abilities followed by [0] or [1] and .ability and .name
 // name of pokemon: response.data.forms[0].name
 
