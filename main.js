@@ -31,11 +31,11 @@ function hitmonlee() {
     let hitmonleeDefense = document.getElementById("hitmonlee-defense");
     let hitmonleeAbilities = document.getElementById("hitmonlee-abilities");
 
-    hitmonleeName.innerHTML = pokeAll[1][2].name
-    hitmonleeHp.innerHTML = pokeAll[1][2].hp
-    hitmonleeAttack.innerHTML = pokeAll[1][2].attack
-    hitmonleeDefense.innerHTML = pokeAll[1][2].defense
-    hitmonleeAbilities.innerHTML = pokeAll[1][2].abilities;
+    hitmonleeName.innerHTML = pokeAll[1][0].name
+    hitmonleeHp.innerHTML = pokeAll[1][0].hp
+    hitmonleeAttack.innerHTML = pokeAll[1][0].attack
+    hitmonleeDefense.innerHTML = pokeAll[1][0].defense
+    hitmonleeAbilities.innerHTML = pokeAll[1][0].abilities;
 }
 
 setTimeout(hitmonlee, 6000);
