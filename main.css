@@ -47,6 +47,10 @@ body {
 .card {
   margin: 10px; }
 
+#sil {
+  margin-top: 40px;
+  width: 105%; }
+
 #poke-cards {
   padding: 20px; }
 
@@ -54,6 +58,7 @@ body {
   padding: 20px; }
 
 #about-us {
-  margin: 90px; }
+  margin: 90px;
+  padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */
