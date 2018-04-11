@@ -24,9 +24,17 @@ body {
 #header-text {
   font-size: 50px; }
 
+#footer-text {
+  font-size: 35px;
+  color: red; }
+
 .first-letter {
   color: red;
   font-size: 65px; }
+
+.big-letter {
+  color: red;
+  font-size: 45px; }
 
 #motto {
   margin: 20px 0 0 0; }
