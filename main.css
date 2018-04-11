@@ -58,6 +58,10 @@ body {
 #submit-p {
   font-size: 20px; }
 
+.card-pic {
+  padding: 10px 10px 10px 10px;
+  height: 240px; }
+
 .card-reveal-p {
   color: grey; }
 
@@ -67,5 +71,14 @@ body {
 
 #poke-cards > p {
   font-size: 40px; }
+
+.card-img {
+  width: 140px;
+  margin: 10px 0 0 23px;
+  position: absolute;
+}
+
+.btn-flat:hover {
+  background-color: darkgrey; }
 
 /*# sourceMappingURL=main.css.map */
