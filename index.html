@@ -13,11 +13,11 @@
     <title>TEAM ROCKET POK&eacute;DEX</title>
 </head>
 <body>
-    <header id="about-contain" class="container">
+    <header id="about-contain">
         <section id="about-row" class="row">
-              <img class="col l4 m6 s12" id="logo" src="images/team-rocket.png">
+              <img class="col l3 m6 s12" id="logo" src="images/team-rocket.png">
               <div class="col l3 m6 s12"></div>
-              <div class="col l5 m6 s12">
+              <div class="col l6 m6 s12">
                   <section id="head-menu" class="row">
                       <h1 id="header-text" class="col l12 m12 s12"><span class="first-letter">T</span>EAM <span class="first-letter">R</span>OCKET</h1>
                       <a class="col s4 waves-effect waves-red btn-flat" href="#about-us"><p>About Us</p></a>
@@ -31,25 +31,25 @@
     
     <main>
 
-<section class="container center-align">
+<section class="center-align">
   <figure>
-      <video src="videos/team-rocket-videoclip.mp4" controls autoplay></video>
+      <video id="video" src="videos/team-rocket-videoclip.mp4" width="100%" autoplay></video>
   </figure>
     <figcaption></figcaption>
 </section>
   
 <section id="poke-cards" class="row">
-    <h2>2018 Winning Roster</h2>
+    <p>2018 Winning Roster</p>
 
     <div class="card medium red lighten-1 col 1 offset-s1">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="images/vaporeon2.png">
+          <img class="activator card-pic" src="images/vaporeon2.png">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Vaporeon<i class="material-icons right">more_vert</i></span>
         </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Stats<i class="material-icons right">clear</i></span>
+        <div class="card-reveal grey darken-3">
+          <span class="card-title white-text">Stats<i class="material-icons right">clear</i></span>
           <ul class="black-text">
               <li>Name: <span id="var-name"></span></li>
               <li>HP: <span id="var-hp"></span></li>
@@ -57,19 +57,19 @@
               <li>Defense: <span id="var-defense"></span></li>
               <li>Abilities: <span id="var-abilities"></span></li>
           </ul>
-          <img src="https://i.pinimg.com/originals/6e/15/8b/6e158b0de583890d7eca925eb1784fbb.gif" style="width:200px;height:150px">
+          <img class="card-img" src="https://i.pinimg.com/originals/6e/15/8b/6e158b0de583890d7eca925eb1784fbb.gif" style="width:200px;height:150px">
         </div>
   </div>
     
     <div class="card medium red lighten-1 col 1 offset-s1">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/jolteon.png">
+      <img class="activator card-pic" src="images/jolteon.png">
         </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Jolteon<i class="material-icons right">more_vert</i></span>
     </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Stats<i class="material-icons right">clear</i></span>
+    <div class="card-reveal grey darken-3">
+      <span class="card-title white-text">Stats<i class="material-icons right">clear</i></span>
       <ul class="black-text">
           <li>Name: <span id="jolt-name"></span></li>
           <li>HP: <span id="jolt-hp"></span></li>
@@ -77,19 +77,19 @@
           <li>Defense: <span id="jolt-defense"></span></li>
           <li>Abilities: <span id="jolt-abilities"></span></li>
       </ul>
-      <img src="https://media1.tenor.com/images/7e5983eeffccd1a5e98635edd854f267/tenor.gif" style="width:200px;height:150px">
+      <img class="card-img" src="https://media1.tenor.com/images/7e5983eeffccd1a5e98635edd854f267/tenor.gif" style="width:200px;height:150px">
     </div>
   </div>
     
     <div class="card medium red lighten-1 col 1 offset-s1">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/flareon.png">
+      <img class="activator card-pic" src="images/flareon.png">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Flareon<i class="material-icons right">more_vert</i></span>
     </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Stats<i class="material-icons right">clear</i></span>
+    <div class="card-reveal grey darken-3">
+      <span class="card-title white-text">Stats<i class="material-icons right">clear</i></span>
       <ul class="black-text">
           <li>Name: <span id="flar-name"></span></li>
           <li>HP: <span id="flar-hp"></span></li>
@@ -97,25 +97,21 @@
           <li>Defense: <span id="flar-defense"></span></li>
           <li>Abilities: <span id="flar-abilities"></span></li>
       </ul>
-      <img src="https://media3.giphy.com/media/XMQDIsq4dmN0s/source.gif" style="width:200px;height:150px">
+      <img class="card-img" src="https://media3.giphy.com/media/XMQDIsq4dmN0s/source.gif" style="width:200px;height:150px">
 
     </div>
         
   </div>
     
-</section>
-
-<div id="poke-cards" class ="row"> 
-    
      <div class="card medium red lighten-1 col 1 offset-s1">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/gengar.png">
+      <img class="activator card-pic" src="images/gengar.png">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Gengar<i class="material-icons right">more_vert</i></span>
     </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Stats<i class="material-icons right">clear</i></span>
+    <div class="card-reveal grey darken-3">
+      <span class="card-title white-text">Stats<i class="material-icons right">clear</i></span>
       <ul class="black-text">
                 <li>Name: <span id="gengar-name"></span></li>
                 <li>HP: <span id="gengar-hp"></span></li>
@@ -123,19 +119,19 @@
                 <li>Defense: <span id="gengar-defense"></span></li>
                 <li>Abilities: <span id="gengar-abilities"></span></li>
             </ul>
-        <img src="https://media1.tenor.com/images/00b5c779172a25b517e0322c845f11b1/tenor.gif?itemid=5634798" style="width:200px;height:150px">
+        <img class="card-img" src="https://media1.tenor.com/images/00b5c779172a25b517e0322c845f11b1/tenor.gif?itemid=5634798" style="width:200px;height:150px">
     </div>
   </div>
     
       <div class="card medium red lighten-1 col 1 offset-s1">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/hitmonlee.png">
+      <img class="activator card-pic" src="images/hitmonlee.png">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Hitmonlee<i class="material-icons right">more_vert</i></span>
     </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Stats<i class="material-icons right">clear</i></span>
+    <div class="card-reveal grey darken-3">
+      <span class="card-title white-text">Stats<i class="material-icons right">clear</i></span>
         <ul class="black-text">
                 <li>Name: <span id="hitmonlee-name"></span></li>
                 <li>HP: <span id="hitmonlee-hp"></span></li>
@@ -143,20 +139,20 @@
                 <li>Defense: <span id="hitmonlee-defense"></span></li>
                 <li>Abilities: <span id="hitmonlee-abilities"></span></li>
             </ul>
-        <img src="https://pa1.narvii.com/6293/9db1079b115a4aafefc23d3a16d4f9dc564b5a20_hq.gif" style="width:200px;height:150px">
+        <img class="card-img" src="https://pa1.narvii.com/6293/9db1079b115a4aafefc23d3a16d4f9dc564b5a20_hq.gif" style="width:200px;height:150px">
     </div>
   </div>
     
       <div class="card medium red lighten-1 col 1 offset-s1">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/kabutops.png">
+      <img class="activator card-pic" src="images/kabutops.png">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Kabutops<i class="material-icons right">more_vert</i></span>
       
     </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Stats<i class="material-icons right">clear</i></span>
+    <div class="card-reveal grey darken-3">
+      <span class="card-title white-text">Stats<i class="material-icons right">clear</i></span>
       <ul class="black-text">
                 <li>Name: <span id="kabutops-name"></span></li>
                 <li>HP: <span id="kabutops-hp"></span></li>
@@ -164,10 +160,9 @@
                 <li>Defense: <span id="kabutops-defense"></span></li>
                 <li>Abilities: <span id="kabutops-abilities"></span></li>
             </ul>
-        <img src="https://media2.giphy.com/media/Q8FbKITUwWmYM/giphy.gif" style="width:200px;height:150px">
+        <img class="card-img" src="https://media2.giphy.com/media/Q8FbKITUwWmYM/giphy.gif" style="width:200px;height:150px">
     </div>
   </div>
-</div>
 
 <section id="about-us" class="about-us row">
     <article class="col s7">
